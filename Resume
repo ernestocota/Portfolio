@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Ernesto Cota | Resume</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+	<header>
+		<h1>Ernesto Cota</h1>
+		<p>Network Engineer | Computer Science Student</p>
+		<!-- Adding my 3 links for the other files below -->
+		<nav>
+			<a href="resume.html">Resume</a>
+			<a href="cover-letter.html">Cover Letter</a>
+			<a href="career-goals.html">Career Goals</a>
+		</nav>
+	</header>
+
+	<main>
+
+		<section class="date-section">
+			<h2>Professional Resume</h2>
+
+			<div id="current-date"></div>
+
+			<script>document.getElementById("current-date").innerHTML =
+                    "Current Date: " + new Date().toLocaleDateString();
+
+                console.log("Resume page loaded successfully.");</script>
+		</section>
+
+		<hr>
+
+		<section>
+			<article>
+				<h2>Professional Summary</h2>
+
+				<p>
+					Network Engineer with experience supporting
+					<strong>high-availability Department of War networks</strong>.
+					Skilled in Cisco and Juniper networking equipment, firewall monitoring,
+					troubleshooting, and security compliance.
+					<br>
+					Currently pursuing a degree in <em>Computer Science</em>.
+				</p>
+
+				<p>
+					I am interested in improving my technical skills in networking,
+					cybersecurity, programming, and automation.
+				</p>
+			</article>
+		</section>
+
+		<section>
+			<h2>Technical Skills</h2>
+
+			<ul>
+				<li>TCP/IP Networking</li>
+				<li>Cisco and Juniper Routers and Switches</li>
+				<li>Firewall Monitoring</li>
+				<li>Windows Enterprise Systems</li>
+				<li>Python, HTML, and C++</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Education</h2>
+
+			<ol>
+				<li>Bachelor of Science in Computer Science - In Progress</li>
+				<li>CompTIA Security+</li>
+				<li>CompTIA CySA+</li>
+			</ol>
+		</section>
+
+		<section>
+			<h2>Work Experience</h2>
+
+			<table>
+				<caption>Professional Experience</caption>
+
+				<tr>
+					<th>Job Title</th>
+					<th>Company</th>
+					<th>Location</th>
+					<th>Dates</th>
+				</tr>
+
+				<tr>
+					<td>Network Engineer / Shift Lead</td>
+					<td>Leidos</td>
+					<td>Scott AFB, Illinois</td>
+					<td>2024 - Present</td>
+				</tr>
+
+				<tr>
+					<td>Data Systems Administrator</td>
+					<td>United States Marine Corps</td>
+					<td>United States</td>
+					<td>2019 - 2024</td>
+				</tr>
+
+				<tr>
+					<td>Sales Associate</td>
+					<td>Cell Phone Company</td>
+					<td>United States</td>
+					<td>2018-2019</td>
+				</tr>
+			</table>
+		</section>
+
+		<section>
+			<h3>Professional Links</h3>
+
+			<p>
+				Visit my
+				<a href="https://www.linkedin.com" target="_blank">LinkedIn profile</a>
+				for additional professional information.
+			</p>
+			<p>
+				<span class="highlight">Available for networking and technology opportunities.</span>
+			</p>
+		</section>
+
+	</main>
+
+	<footer>
+		<p>&copy; 2026 Ernesto Cota | Personal Portfolio</p>
+	</footer>
+
+</body>
+</html>
