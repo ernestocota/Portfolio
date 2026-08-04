@@ -1,0 +1,131 @@
+/* Universal selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+/* Element selector */
+header {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Descendant selector */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* Pseudo-class selector */
+nav a:hover {
+    color: #ffd966;
+    text-decoration: underline;
+}
+
+/* Class selector */
+.highlight {
+    color: #1f4e79;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* ID selector */
+#current-date {
+    background-color: #d9eaf7;
+    border: 1px solid #1f4e79;
+    padding: 10px;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+/* Element selector */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Element selector */
+section {
+    background-color: white;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Element selector */
+footer {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* List-style property */
+ul {
+    list-style-type: square;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #444444;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #d9eaf7;
+}
+
+/* Image styling */
+.career-image {
+    width: 100%;
+    max-width: 500px;
+    border: 3px solid #1f4e79;
+    margin-top: 15px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, select {
+    margin-bottom: 12px;
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: #1f4e79;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #163a5b;
+}
